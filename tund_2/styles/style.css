@@ -1,0 +1,21 @@
+body {
+	background-color: PowderBlue;
+	color: #000000;
+	font-family: verdana;
+	background-image: url("../../../../../media/pics/tlu_h200.png");
+	background-repeat: no-repeat;/*repeat  no-repeat  repeat-x  repeat-x*/
+	background-position: 1250px 300px;/*top center bottom   left  center  right*/
+	background-attachment: fixed;/*scroll*/
+}
+
+h1, h2, h3 {
+	color: rgb(102,0,255);
+}
+
+section {
+	background-color: rgba(255,255,255,.5);
+	background-image: url("../../../../../media/pics/top_left_01_transparent.png"), url("../../../../../media/pics/bottom_right_01_transparent.png");
+	background-repeat: no-repeat;
+	background-size: 50px;/*contain  cover*/
+	background-position: top left, bottom right;
+}

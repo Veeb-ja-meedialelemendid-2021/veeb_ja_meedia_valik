@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="et">
+<head>
+	<title>Veeb- ja meediaelemendid</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="styles/style.css">
+</head>
+<body>
+	<nav>
+		<p><a href="https://www.tlu.ee">Tallinna Ülikool</a></p>
+		<p><a href="#wwwintro">Veebis saab kasutada</a></p>
+		<p><a href="#gaudeamus">Üliõpilashümn <q>Gaudeamus</q></a></p>
+		<p><a href="#media">Meedialemendid veebis</q></a></p>
+	</nav>
+	<main>
+		<header>
+			<h1>Veeb- ja meediaelemendid</h1>
+			<p>See veebileht on loodud õppetöö raames ja ei sisalda olulist või mõttekat sisu!</p>
+		</header>
+		<section id="wwwintro">
+			<h2>Veebis saab kasutada</h2>
+			<ol>
+				<li>Teksti
+					<ul>
+						<li>Pealkirju</li>
+						<li>Tavateksti</li>
+						<li>Loendeid (listid)</li>
+					</ul>
+				</li>
+				<li>Graafikat</li>
+				<li>Meediat</li>
+			</ol>
+			<h3>Mõned mõisted</h3>
+			<dl>
+				<dt>List</dt><dd>Loend, loendina järjestatud andmete kogum.</dd>
+				<dt>Tekst</dt><dd>Kirjutatud või trükitud sõnade mõtestatud järjend.</dd>
+			</dl>
+		</section>
+		
+		<section id="gaudeamus">
+			<h2>Gaudeamus</h2>
+			<p>keskaegne tekst, Christian Wilhelm Kindleben (töötlus) / üliõpilaslaul</p>
+			<pre>:,: Gaudeamus igitur
+juvenes dum sumus! :,:
+Post jucundam juventutem,
+post molestam senectutem
+:,: nos habebit humus! :,:
+
+:,: Ubi sunt, qui ante nos
+in mundo fuere? :,:
+Vadite ad superos,
+transite ad inferos,
+:,: ubi iam fuere. :,:
+
+:,: Vita nostra brevis est,
+brevi finietur. :,:
+Venit mors velociter,
+rapit nos atrociter,
+:,: nemini parcetur. :,:
+
+:,: Vivat academia,
+vivant professores! :,:
+Vivat membrum quodlibet,
+vivant membra quaelibet,
+:,: semper sint in flore! :,:
+
+:,: Vivant omnes virgines
+faciles, formosae! :,:
+Vivant et mulieres
+tenerae, amabiles,
+:,: atque laboriosae! :,:
+
+:,: Vivat et respublica
+et qui illam regit! :,:
+Vivat nostra civitas,
+maecenatum caritas,
+:,: quae nos hic protegit! :,:
+
+:,: Pereat tristitia,
+pereant osores! :,:
+Pereat diabolus,
+quivis antiburschius,
+:,: atque irrisores! :,:
+			</pre>
+		</section>
+		
+		<section id="media">
+			<h2>Meediaelemendid veebilehel</h2>
+			<p>Veebilehel saab kasutada pea kõiki meediaelemente nagu töölauarakendusteski.</p>
+			<h3>Pildid</h3>
+			<p>Kui pilt on lihtsalt kujunduse osa (bänner jms).<p>
+			<img src="../../../../media/photos/TLU_600x400/tlu_42.jpg" alt="TLÜ Terra õppehoone peauks">
+			<img src="../../../../media/photos/TLU_600x400/tlu_41.jpg" alt="TLÜ Astra õppehoone">
+<!--http://greeny.cs.tlu.ee/~rinde/2021/veeb_ja_meedia/veeb_ja_meedia_valik/tund_2/-->
+<!--http://greeny.cs.tlu.ee/~rinde/media/photos/TLU_600x400/tlu_42.jpg-->
+			<p>Kui pilt on tähenduslik, sisuga seotud (joonis, diagramm vms).</p>
+			<figure>
+				<img src="../../../../media/photos/TLU_600x400/tlu_37.jpg" alt="TLÜ Astra õppehoone">
+				<figcaption>TLÜ <q>Astra</q> õppehoone</figcaption>
+			</figure>
+			<figure>
+				<img src="../../../../media/photos/TLU_600x400/tlu_36.jpg" alt="TLÜ Terra õppehoone">
+				<figcaption>TLÜ <q>Terra</q> õppehoone</figcaption>
+			</figure>
+			
+			<h3>Heli</h3>
+			<p>HTML5 võimadab veebilehel loomuliku (native) elemendina kasutada wav, mp3, ogg ja m4a faile.</p>
+			<audio controls preload="none">
+				<source src="../../../../media/sounds/Thomas_Edison_Mary_had_lamb.ogg" type="audio/ogg"><!--MIME-->
+				Vabandame, Teie brauser ei toeta HTML5 audio elementi!
+			</audio>
+			<h3>Video</h3>
+			<p>HTML5 võimaldab veebilehel loomuliku elemendina kasutada mp4, ogv ja WebM faile</p>
+			<video controls preload="none" width="600" poster="../../../../media/videos/tlu_annab_hariduse.jpg">
+				<source src="../../../../media/videos/haridusvalgustab.mp4" type="video/mp4">
+				Vabandame, Teie brauser ei toeta HTML5 video elementi!
+			</video>
+			<h3>Youtube video</h3>
+			<iframe width="560" height="315" src="https://www.youtube.com/embed/L_LUpnjgPso" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+		</section>
+		
+		<footer>
+			<p>Veebileht lõppeb siin!</p>
+		</footer>
+	</main>
+</body>
+</html>
