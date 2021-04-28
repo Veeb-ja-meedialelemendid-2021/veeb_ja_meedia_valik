@@ -1,0 +1,12 @@
+body {
+	margin: 2.5cm;
+	font-size: 16pt;
+}
+
+nav, audio, video, iframe, #animation, #graphics {
+	display: none;
+}
+
+.photoplace {
+	display: none;
+}
