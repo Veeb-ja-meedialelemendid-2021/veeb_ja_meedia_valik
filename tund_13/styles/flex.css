@@ -1,0 +1,60 @@
+* {
+	box-sizing: border-box;
+}
+/*kui HTML faili son viewport, siis saate uued mõõtühikud
+vw  1% viewport laiusest
+vh  1% kõrgusest
+vmin  1% lähema serva pikkusest
+vmax  1% pikema serva pikkusest
+*/
+
+body {
+	background-color: #FAFAFA;
+	font-family: verdana, sans-serif;
+}
+
+main {
+	width: 95vw;
+}
+
+section {
+	padding: 20px;
+	border: 2px solid #999999;
+}
+
+img {
+	width: 150px;
+	float: left;
+	margin-right: 10px;
+	
+}
+
+h2 {
+	clear: both;
+}
+
+/*FLEXBOX*/
+.flex_container {
+	display: flex; /*inline-flex*/
+	flex-direction: row;  /*row-reverse  column  column-reverse*/
+	flex-wrap: wrap;
+	justify-content: flex-start;  /*flex-start   flex-end   center   space-between  space-around  */
+}
+
+.flex_item {
+	max-height: 500px;
+	overflow-y: auto;
+	flex-basis: 400px; /*elemendi baasmõõt*/
+	min-width: 200px;
+	max-width: 100%;
+	flex-grow: 1;
+	flex-shrink: 1;
+	margin: 5px;
+}
+
+.wider {
+	flex-basis: 800px; /*elemendi baasmõõt*/
+	min-width: 400px;
+	flex-grow: 2;
+	flex-shrink: 2;
+}
